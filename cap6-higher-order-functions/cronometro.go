@@ -26,8 +26,7 @@ func Cronometrar(funcao func()) {
 
 	funcao()
 
-	fmt.Printf("\nTempo de execução: %s\n\n",
-		time.Since(inicio))
+	fmt.Printf("\nTempo de execução: %s\n\n", time.Since(inicio))
 }
 
 func main() {

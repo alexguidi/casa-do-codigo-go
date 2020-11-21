@@ -20,7 +20,7 @@ func calcular(base float64, controle *sync.WaitGroup) {
 }
 
 func main() {
-	runtime.GOMAXPROCS(runtime.NumCPU())
+	runtime.GOMAXPROCS(3)
 
 	inicio := time.Now()
 	var controle sync.WaitGroup

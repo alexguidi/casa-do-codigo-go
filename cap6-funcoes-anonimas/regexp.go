@@ -1,5 +1,3 @@
-//http://golang.org/pkg/regex/
-
 package main
 
 import (
@@ -17,6 +15,5 @@ func main() {
 
 	texto := "antonio carlos jobim"
 	fmt.Println(transformadora(texto))
-	fmt.Println(expr.ReplaceAllStringFunc(
-		texto, transformadora))
+	fmt.Println(expr.ReplaceAllStringFunc(texto, transformadora))
 }

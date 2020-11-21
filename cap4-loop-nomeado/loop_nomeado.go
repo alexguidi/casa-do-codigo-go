@@ -6,6 +6,7 @@ import (
 
 func main() {
 	var i int
+
 loop:
 	for i = 0; i < 10; i++ {
 		fmt.Printf("for i = %d\n", i)
@@ -19,5 +20,6 @@ loop:
 			break loop
 		}
 	}
-	fmt.Println("Fim")
+
+	fmt.Println("Fim.")
 }

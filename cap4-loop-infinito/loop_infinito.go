@@ -12,6 +12,7 @@ func main() {
 
 	for {
 		n++
+
 		i := rand.Intn(4200)
 		fmt.Println(i)
 
@@ -20,5 +21,5 @@ func main() {
 		}
 	}
 
-	fmt.Printf("Saida apos %d iteracoes.\n", n)
+	fmt.Printf("Saída após %d iterações.\n", n)
 }

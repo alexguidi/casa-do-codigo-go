@@ -13,11 +13,12 @@ func main() {
 	for i, n := range entrada {
 		numero, err := strconv.Atoi(n)
 		if err != nil {
-			fmt.Printf("%s nao eh um numero valido!\n", n)
+			fmt.Printf("%s não é um número válido!\n", n)
 			os.Exit(1)
 		}
 		numeros[i] = numero
 	}
+
 	fmt.Println(quicksort(numeros))
 }
 

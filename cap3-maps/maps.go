@@ -20,7 +20,6 @@ func colherEstatisticas(palavras []string) map[string]int {
 	for _, palavra := range palavras {
 		inicial := strings.ToUpper(string(palavra[0]))
 		contador, encontrado := estatisticas[inicial]
-
 		if encontrado {
 			estatisticas[inicial] = contador + 1
 		} else {
